@@ -216,7 +216,7 @@ ul li + li:before {
 
 h4 {
   color: #202c38;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -255,10 +255,6 @@ strong {
 
 .ml-40px {
   margin-left: 40px;
-}
-
-.object-contain {
-  object-fit: contain;
 }
 
 .page-headers {
