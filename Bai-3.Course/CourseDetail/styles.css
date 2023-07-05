@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-center {
+  flex-direction: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+/*  HEADER  */
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #f1eeee;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+.px-24px {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-10px {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  height: 32px;
+  width: 34.63529586791992px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.pl-header {
+  padding-left: 36px;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+/** MAIN CONTENT */
+
+/* Side bar */
+.side-bar {
+  display: inline-flex;
+  width: 240px;
+  height: auto;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #f1eeee;
+}
+
+.menu-items {
+  display: flex;
+  width: 100%;
+  padding: 12px 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.pfi-x {
+  padding-left: 16px;
+  padding-right: 12px;
+}
+
+.pfi-y {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.pl-48px {
+  padding-left: 48px;
+}
+
+.selected {
+  background: #f9f9f9;
+  box-shadow: -1px 0px 0px 0px #f5b102 inset;
+}
+
+.address {
+  display: flex;
+  width: 240px;
+  padding: 14px 16px;
+  gap: 10px;
+  background: var(--white-100, #fff);
+  box-shadow: 0px 1px 0px 0px #eee inset;
+}
+
+.address-decoration {
+  color: #a6abad;
+  /* Caption/Regular */
+  font-size: 11px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.mt-10rem {
+  margin-top: 10rem;
+}
+
+/* COURSE HEADER */
+.course-header {
+  height: 84px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 24px;
+  padding-top: 16px;
+  padding-bottom: 36px;
+  gap: 8px;
+  align-self: stretch;
+  background: #fff;
+}
+
+ul {
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+ul li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.mb-8px {
+  margin-bottom: 8px;
+}
+
+/* COURSE DETAIL */
+.course-info {
+  display: flex;
+  padding: 40px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+.mr-120px {
+  margin-right: 120px;
+}
+
+.mb-20px {
+  margin-bottom: 20px;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.mt-12px {
+  margin-top: 12px;
+}
+
+.fontSize-14px {
+  font-size: 14px;
+}
+
+.submit {
+  margin-top: 20px;
+  padding: 11px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 4px;
+  background: #ffc42c;
+}

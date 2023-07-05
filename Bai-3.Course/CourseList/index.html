@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <title>Course List</title>
+  </head>
+  <body>
+    <!---- HEADER ---->
+
+    <header
+      class="flex justify-between justify-center flex-row py-10px px-24px"
+    >
+      <img src="images/bee.png" class="logo" alt="logo" />
+      <div class="flex justify-center items-center">
+        <div class="flex items-center">
+          <img
+            src="images/Ellipse.png"
+            alt="User profile pictures"
+            style="margin-right: 12px"
+          />
+          <p>
+            ID: 12345678P
+            <i class="fa fa-angle-down" style="margin-left: 12px"></i>
+          </p>
+        </div>
+        <div class="hp-32px">
+          <i class="fa fa-bell"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="flex">
+      <!---- SIDE MENU ---->
+
+      <div class="side-bar align-start">
+        <div>
+          <div class="menu-items">
+            <a href=" " style="text-decoration: none; color: #202c38">
+              <i class="fa fa-home pfi-x pfi-y" style="color: #919699"></i>
+              <span> Trang chủ </span>
+            </a>
+          </div>
+          <div>
+            <div class="menu-items">
+              <a href=" " style="text-decoration: none; color: #202c38">
+                <i class="fa fa-receipt pfi-x pfi-y" style="color: #919699"></i>
+                <span> Đơn hàng </span>
+              </a>
+              <i class="fa fa-angle-down" style="color: #676e72"></i>
+            </div>
+            <div>
+              <div class="menu-items">
+                <a href=" " style="text-decoration: none; color: #202c38">
+                  <i
+                    class="fa fa-circle-dollar-to-slot pfi-x pfi-y"
+                    style="color: #919699"
+                  ></i>
+                  <span> Báo giá </span>
+                </a>
+                <i class="fa fa-angle-down" style="color: #676e72"></i>
+              </div>
+            </div>
+            <div>
+              <div class="menu-items">
+                <a href=" " style="text-decoration: none; color: #202c38">
+                  <i
+                    class="fa fa-digging pfi-x pfi-y"
+                    style="color: #919699"
+                  ></i>
+                  <span> Sản phẩm </span>
+                </a>
+                <i class="fa fa-angle-down" style="color: #676e72"></i>
+              </div>
+            </div>
+            <div>
+              <div class="menu-items">
+                <a href=" " style="text-decoration: none; color: #202c38">
+                  <i
+                    class="fa fa-ticket-alt pfi-x pfi-y"
+                    style="color: #919699"
+                  ></i>
+                  <span> Khuyễn mãi </span>
+                </a>
+                <i class="fa fa-angle-down" style="color: #676e72"></i>
+              </div>
+            </div>
+            <div>
+              <div class="menu-items">
+                <a href=" " style="text-decoration: none; color: #202c38">
+                  <i
+                    class="fa fa-wrench pfi-x pfi-y"
+                    style="color: #919699"
+                  ></i>
+                  <span> Yêu cầu sửa chữa </span>
+                </a>
+                <i class="fa fa-angle-down" style="color: #676e72"></i>
+              </div>
+            </div>
+            <div>
+              <div class="menu-items">
+                <a href=" " style="text-decoration: none; color: #202c38">
+                  <i class="fa fa-star pfi-x pfi-y" style="color: #919699"></i>
+                  <span> Đánh giá </span>
+                </a>
+                <i class="fa fa-angle-down" style="color: #676e72"></i>
+              </div>
+            </div>
+            <div>
+              <div class="menu-items">
+                <a href=" " style="text-decoration: none; color: #202c38">
+                  <i
+                    class="fa fa-helmet-safety pfi-x pfi-y"
+                    style="color: #919699"
+                  ></i>
+                  <span> Yêu cầu sửa chữa </span>
+                </a>
+                <i
+                  class="fa fa-angle-down align-end"
+                  style="color: #676e72"
+                ></i>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="menu-items">
+                  <a href=" " style="text-decoration: none; color: #202c38">
+                    <i
+                      class="fa fa-book pfi-x pfi-y"
+                      style="color: #919699"
+                    ></i>
+                    <span> Khóa học </span>
+                  </a>
+                  <i class="fa fa-angle-up" style="color: #676e72"></i>
+                </div>
+              </div>
+              <div class="menu-items">
+                <span class="pl-48px"> Học tập </span>
+              </div>
+              <div
+                class="menu-items selected"
+                style="background-color: #f3f2f2"
+              >
+                <span class="pl-48px"> Tìm kiếm khóa học </span>
+              </div>
+            </div>
+            <div class="menu-items">
+              <a href=" " style="text-decoration: none; color: #202c38">
+                <i
+                  class="fa fa-money-bill pfi-x pfi-y"
+                  style="color: #919699"
+                ></i>
+                <span> Doanh thu </span>
+              </a>
+            </div>
+            <div class="menu-items">
+              <a href=" " style="text-decoration: none; color: #202c38">
+                <i class="fa fa-gear pfi-x pfi-y" style="color: #919699"></i>
+                <span> Thiết lập hồ sơ </span>
+              </a>
+            </div>
+            <div class="menu-items">
+              <a href=" " style="text-decoration: none; color: #202c38">
+                <i
+                  class="fa fa-smile-beam pfi-x pfi-y"
+                  style="color: #919699"
+                ></i>
+                <span> Tài khoản </span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="menu-items address address-decoration mt-10rem align-start"
+          >
+            <span>2023 © Call me</span>
+          </div>
+        </div>
+      </div>
+
+      <!---- COURSE CONTENT ---->
+
+      <div class="flex-grow">
+        <div>
+          <!--- Page header --->
+
+          <div class="page-headers">
+            <div class="mb-8px">
+              <ul class="flex" style="list-style-type: none">
+                <li>
+                  <a href=" " style="text-decoration: none; color: #919699"
+                    >Trang chủ
+                  </a>
+                </li>
+                <li>
+                  <a href=" " style="text-decoration: none; color: #202c38">
+                    Khóa học
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <h2>Tìm kiếm khóa học</h2>
+          </div>
+          <!-- Page content -->
+
+          <div class="main-content">
+            <!-- Search bar -->
+
+            <div
+              class="search-bar flex justify-between justify-center flex-col"
+            >
+              <form class="inline-flex">
+                <button
+                  class="no-border"
+                  type="submit"
+                  style="background-color: #fff"
+                >
+                  <i class="fa fa-search" style="color: #919699"></i>
+                </button>
+                <input
+                  class="no-border"
+                  style="width: 350px"
+                  type="search"
+                  placeholder="Tìm theo khóa học, giảng viên"
+                />
+              </form>
+            </div>
+            <!-- PRICE AND INFORMATION -->
+            <div class="mt-40px">
+              <div class="flex">
+                <div class="flex price-info flex-col align-start">
+                  <img
+                    src="images/block-1.png"
+                    alt="Construction Cost Estimating and Cost Control"
+                    style="width: 100%"
+                  />
+                  <div>
+                    <div class="mb-16px">
+                      <h4>Vận hành và bảo dưỡng máy xúc Komastu</h4>
+                    </div>
+                    <div class="pb-20px">
+                      <div class="flex flex-col align-start">
+                        <del>6.500.000 đ</del>
+                        <strong>5.500.000 đ</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-info flex-col align-start ml-40px">
+                  <img
+                    src="images/block-2.png"
+                    alt="Construction Cost Estimating and Cost Control"
+                    style="width: 100%"
+                  />
+                  <div>
+                    <div class="mb-16px">
+                      <h4>Vận hành và bảo dưỡng máy xúc Komastu</h4>
+                    </div>
+                    <div class="pb-20px">
+                      <div class="flex flex-col align-start">
+                        <del>6.500.000 đ</del>
+                        <strong>5.500.000 đ</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex price-info flex-col align-start ml-40px">
+                  <img
+                    src="images/block-3.png"
+                    alt="Construction Cost Estimating and Cost Control"
+                    style="width: 100%"
+                  />
+                  <div>
+                    <div class="mb-16px">
+                      <h4>Vận hành và bảo dưỡng máy xúc Komastu</h4>
+                    </div>
+                    <div class="pb-20px">
+                      <div class="flex flex-col align-start">
+                        <del>6.500.000 đ</del>
+                        <strong>5.500.000 đ</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-40px">
+              <div class="flex">
+                <div class="flex price-info flex-col align-start">
+                  <img
+                    src="images/block-4.png"
+                    alt="Construction Cost Estimating and Cost Control"
+                    style="width: 100%"
+                  />
+                  <div>
+                    <div class="mb-16px">
+                      <h4>Vận hành và bảo dưỡng máy xúc Komastu</h4>
+                    </div>
+                    <div class="pb-20px">
+                      <div class="flex flex-col align-start">
+                        <del>6.500.000 đ</del>
+                        <strong>5.500.000 đ</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-info flex-col align-start ml-40px">
+                  <img
+                    src="images/block-5.png"
+                    alt="Construction Cost Estimating and Cost Control"
+                    style="width: 100%"
+                  />
+                  <div>
+                    <div class="mb-16px">
+                      <h4>Vận hành và bảo dưỡng máy xúc Komastu</h4>
+                    </div>
+                    <div class="pb-20px">
+                      <div class="flex flex-col align-start">
+                        <del>6.500.000 đ</del>
+                        <strong>5.500.000 đ</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex price-info flex-col align-start ml-40px">
+                  <img
+                    src="images/block-6.png"
+                    alt="Construction Cost Estimating and Cost Control"
+                    style="width: 100%"
+                  />
+                  <div>
+                    <div class="mb-16px">
+                      <h4>Vận hành và bảo dưỡng máy xúc Komastu</h4>
+                    </div>
+                    <div class="pb-20px">
+                      <div class="flex flex-col align-start">
+                        <del>6.500.000 đ</del>
+                        <strong>5.500.000 đ</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
